@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.amirrammari" name="AmirAmmari Repo" version="1.0.0" provider-name="Amir Ammari">
+<addon id="repository.amirrammari" name="AmirAmmari Repo" version="1.1" provider-name="Amir Ammari">
   <extension point="xbmc.addon.repository" name="AmirAmmari Repo">
-      <info compressed="true">https://raw.githubusercontent.com/amirrammari/Kodi-Addons/master/addons.xml.gz</info>
+      <info compressed="false">https://raw.githubusercontent.com/amirrammari/Kodi-Addons/master/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/amirrammari/Kodi-Addons/master/addons.xml.gz.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/amirrammari/Kodi-Addons/master/</datadir>
   </extension>
@@ -9,5 +9,11 @@
       <summary>Install AmirAmmari Addons</summary>
       <description>Download and install AmirAmmari addons</description>
       <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+      <forum></forum>
+      <website></website>
+      <email>amirrammari@gmail.com</email>
+      <source>https://github.com/amirrammari/kodi-repo-plugins/tree/master/repository.amirrammari</source>
+      <news>Fix Bugs</news>
   </extension>
 </addon>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.audio.navahang" name="Navahang" version="2.2.0" provider-name="Amir Ammari">
+<addon id="plugin.audio.navahang" name="Navahang" version="2.3" provider-name="Amir Ammari">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
   </requires>
@@ -19,7 +19,7 @@
     <forum></forum>
     <website>https://www.navahang.com</website>
     <email>amirrammari@gmail.com</email>
-    <source>https://github.com/amirrammari/kodi-navahang-addon</source>
+    <source>https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.audio.navahang</source>
 		<news>Fix Bugs</news>
     <assets>
       <icon>resources/icon.png</icon>
