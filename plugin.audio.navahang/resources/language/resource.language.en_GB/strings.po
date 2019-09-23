@@ -27,3 +27,95 @@ msgstr "Can't connect to server."
 msgctxt "#30002"
 msgid "An error occurred."
 msgstr "An error occurred."
+
+msgctxt "#32000"
+msgid "General"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Debug"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Category"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Shows"
+msgstr ""
+
+msgctxt "#32004"
+msgid "!UNUSED!"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Recent"
+msgstr ""
+
+msgctxt "#32006"
+msgid "New"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Search"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Featured"
+msgstr ""
+
+msgctxt "#32009"
+msgid "!UNUSED!"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Page"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Menu"
+msgstr ""
+
+msgctxt "#32013"
+msgid "!UNUSED!"
+msgstr ""
+
+msgctxt "#32014"
+msgid "Clear Recently Viewed"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Clear Searches"
+msgstr ""
+
+msgctxt "#32016"
+msgid "New Search"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Cache"
+msgstr ""
+
+msgctxt "#32018"
+msgid "Clear Cache"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Remove Search"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Save Searches"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Save Recently Viewed"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Are you sure?"
+msgstr ""

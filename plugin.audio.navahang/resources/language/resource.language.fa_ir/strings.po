@@ -27,3 +27,95 @@ msgstr "نمی توانم به سرور وصل شوم."
 msgctxt "#30002"
 msgid "An error occurred."
 msgstr "خطایی رخ داده است."
+
+msgctxt "#32000"
+msgid "General"
+msgstr "عمومی"
+
+msgctxt "#32001"
+msgid "Debug"
+msgstr "مشکل گشایی"
+
+msgctxt "#32002"
+msgid "Category"
+msgstr "طبقه بندی"
+
+msgctxt "#32003"
+msgid "شوها"
+msgstr ""
+
+msgctxt "#32004"
+msgid "!UNUSED!"
+msgstr "!استفاده نشده!"
+
+msgctxt "#32005"
+msgid "Recent"
+msgstr "اخیر"
+
+msgctxt "#32006"
+msgid "New"
+msgstr "جدید"
+
+msgctxt "#32007"
+msgid "Search"
+msgstr "جستجو"
+
+msgctxt "#32008"
+msgid "Featured"
+msgstr "ویژه"
+
+msgctxt "#32009"
+msgid "!UNUSED!"
+msgstr "!استفاده نشده!"
+
+msgctxt "#32010"
+msgid "Settings"
+msgstr "Settings"
+
+msgctxt "#32011"
+msgid "Page"
+msgstr "صفحه"
+
+msgctxt "#32012"
+msgid "Menu"
+msgstr "منو"
+
+msgctxt "#32013"
+msgid "!UNUSED!"
+msgstr "!استفاده نشده!"
+
+msgctxt "#32014"
+msgid "پاک کردن مشاهده های اخیراً"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Clear Searches"
+msgstr "پاک کردن جستجوها"
+
+msgctxt "#32016"
+msgid "New Search"
+msgstr "جستجوی جدید"
+
+msgctxt "#32017"
+msgid "Cache"
+msgstr "حافظه نهان"
+
+msgctxt "#32018"
+msgid "Clear Cache"
+msgstr "پاک کردن حافظه پنهان"
+
+msgctxt "#32019"
+msgid "Remove Search"
+msgstr "جستجو را حذف کنید"
+
+msgctxt "#32020"
+msgid "Save Searches"
+msgstr "ذخیره جستجوها"
+
+msgctxt "#32021"
+msgid "Save Recently Viewed"
+msgstr "ذخیره اخیراً مشاهده شده"
+
+msgctxt "#32022"
+msgid "Are you sure?"
+msgstr "شما مطمئن هستید؟"

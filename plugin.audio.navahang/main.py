@@ -52,12 +52,20 @@ class LoadLister:
                 return addDirectoryItem(int(argv[1]), url, item, False, totalItems)
 
         def buildIndex(self):
-                request = urllib2.Request(self.url, headers={'User-Agent' : 'Kodi'})
+                rdLink = 'http://173.236.47.154:2199/rpc/radionavahang/streaminfo.get'
+                request = urllib2.Request(rdLink, headers={'User-Agent' : 'Kodi'})
+                response = urllib2.urlopen(request)
+                json_text = response.read()
+                loaded_json = json.loads(json_text)
+                otext = loaded_json['data'][0]['track']
+                self.addLink('[B]' + otext['title'] + "[/B][CR]" + otext['artist'], loaded_json['data'][0]['tuneinurl'], otext['imageurl'], {'Artist': otext['artist'],'Title': otext['title'],'Album': otext['album'] if otext['album']!='' else 'Single'})
+
+                request = urllib2.Request(DataLink, headers={'User-Agent' : 'Kodi'})
                 response = urllib2.urlopen(request)
                 json_text = response.read()
                 loaded_json = json.loads(json_text)
                 for item in loaded_json:
-                        self.addLink(item['artist_name'] + ' - ' + item['song_name'], item['download'], item['image'], {'Artist': item['artist_name'],'Title': item['song_name'],'Album': 'Single'})
+                        self.addLink('[B]' + item['song_name'] + '[/B][CR]' + item['artist_name'], item['download'], item['image'], {'Artist': item['artist_name'],'Title': item['song_name'],'Album': 'Single'})
 
         def run(self, handle):
                 endOfDirectory(int(handle))
