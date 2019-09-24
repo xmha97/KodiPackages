@@ -24,11 +24,11 @@ Once you have installed the repository
 
 ## Audio Add-ons
 
-*   [Navahang](https://github.com/FraserChapman/plugin.video.bfi.git)
+*   [Navahang](https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.audio.navahang)
 
 ## Program Add-ons
 
-*   [Simplenote](https://github.com/FraserChapman/plugin.video.bfi.git)
+*   [Simplenote](https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.program.simplenote)
 
 ## Disclaimer
 
