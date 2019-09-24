@@ -22,13 +22,13 @@ Once you have installed the repository
 2.  Select the "AmirAmmari Repo" repoistory
 3.  Choose the add-on you wish to install
 
-## Video Add-ons
+## Audio Add-ons
 
-*   [BFI Player](https://github.com/FraserChapman/plugin.video.bfi.git)
+*   [Navahang](https://github.com/FraserChapman/plugin.video.bfi.git)
 
-## Script modules
+## Program Add-ons
 
-*   [cache](https://github.com/FraserChapman/script.module.cache.git)
+*   [Simplenote](https://github.com/FraserChapman/plugin.video.bfi.git)
 
 ## Disclaimer
 
