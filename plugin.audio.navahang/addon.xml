@@ -24,7 +24,7 @@
 	<website>https://www.navahang.com</website>
 	<email>amirrammari@gmail.com</email>
 	<source>https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.audio.navahang</source>
-		<news>Fix Bugs</news>
+	<news>Compatible with Python 3</news>
 	<assets>
 		<icon>resources/media/icon.png</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
