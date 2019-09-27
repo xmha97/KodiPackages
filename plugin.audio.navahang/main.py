@@ -1,30 +1,18 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
+# -*- coding: UTF-8 -*-
 
-#  Copyright 2019 Amir Ammari
 #
-#  This file is part of the Radio Javan kodi plugin.
+# Imports
 #
-#  This plugin is free software: you can redistribute it and/or modify
-#  it under the terms of the GNU General Public License as published by
-#  the Free Software Foundation, either version 3 of the License, or
-#  (at your option) any later version.
-#
-#  This plugin is distributed in the hope that it will be useful,
-#  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#  GNU General Public License for more details.
-#
-#  You should have received a copy of the GNU General Public License
-#  along with this plugin.  If not, see <http://www.gnu.org/licenses/>.
-
+from future import standard_library
+standard_library.install_aliases()
 from os.path import join
 from sys import argv
-import urllib2
 import json
 from time import gmtime, strftime, strptime
-from urllib import quote_plus, urlopen
-from urlparse import parse_qs, urlparse
+import urllib.error
+from urllib.request import urlopen
+from urllib.parse import parse_qs, urlparse, quote_plus
 from xml.dom.minidom import parseString
 from xbmc import translatePath
 import xbmcaddon
@@ -53,15 +41,15 @@ class LoadLister:
 
         def buildIndex(self):
                 rdLink = 'http://173.236.47.154:2199/rpc/radionavahang/streaminfo.get'
-                request = urllib2.Request(rdLink, headers={'User-Agent' : 'Kodi'})
-                response = urllib2.urlopen(request)
+                request = urllib.request.Request(rdLink, headers={'User-Agent' : 'Kodi'})
+                response = urllib.request.urlopen(request)
                 json_text = response.read()
                 loaded_json = json.loads(json_text)
                 otext = loaded_json['data'][0]['track']
                 self.addLink('[B]' + otext['title'] + "[/B][CR]" + otext['artist'], loaded_json['data'][0]['tuneinurl'], otext['imageurl'], {'Artist': otext['artist'],'Title': otext['title'],'Album': otext['album'] if otext['album']!='' else 'Single'})
 
-                request = urllib2.Request(DataLink, headers={'User-Agent' : 'Kodi'})
-                response = urllib2.urlopen(request)
+                request = urllib.request.Request(DataLink, headers={'User-Agent' : 'Kodi'})
+                response = urllib.request.urlopen(request)
                 json_text = response.read()
                 loaded_json = json.loads(json_text)
                 for item in loaded_json:
