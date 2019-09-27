@@ -2,10 +2,6 @@
 <addon id="plugin.audio.navahang" name="Navahang" version="2.3" provider-name="Amir Ammari">
 	<requires>
         <import addon="xbmc.python" version="2.26.0"/>
-        <import addon="script.module.routing" version="0.2.0"/>
-        <import addon="script.module.requests" version="2.12.4"/>
-        <import addon="script.module.beautifulsoup4" version="4.3.2"/>
-        <import addon="script.module.cache" version="1.0.1"/>
 	</requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
 		<provides>audio</provides>
