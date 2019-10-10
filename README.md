@@ -26,10 +26,6 @@ Once you have installed the repository
 
 *   [Navahang](https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.audio.navahang)
 
-## Program Add-ons
-
-*   [Simplenote](https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.program.simplenote)
-
 ## Disclaimer
 
 The add-ons in this repository are not created, maintained or in any way affiliated with the various content providers whose material they access. The add-ons simply provide an interface to access free, web-accesible, content from the various content providers websites.
