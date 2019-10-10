@@ -56,7 +56,6 @@
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.program.simplenote" name="Simplenote" version="1.0" provider-name="Amir Ammari">
     <requires>
       <import addon="xbmc.python" version="2.25.0"/>
     </requires>

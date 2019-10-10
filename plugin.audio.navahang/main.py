@@ -51,7 +51,8 @@ class LoadLister:
                 self.url = url
 
         def addLink(self, name, url, image = '', info = {}, totalItems = 0):
-                item = ListItem(name.encode('utf-8'), iconImage = image, thumbnailImage = image)
+                item = ListItem(name)
+                item.setArt({ 'thumb': image, 'icon': image, 'fanart': image})
                 item.setProperty('mimetype', 'audio/mpeg')
                 item.setInfo('music', info)
                 return addDirectoryItem(int(argv[1]), url, item, False, totalItems)
@@ -81,7 +82,7 @@ if __name__ == '__main__':
                 appClass.buildIndex()
                 appClass.run(argv[1])
                 
-        except urllib2.HTTPError as err:
+        except urllib.HTTPError as err:
                 xbmcgui.Dialog().ok(ADDONNAME, LANGUAGE(30001) % err.code, LANGUAGE(30000))
 
         except:
