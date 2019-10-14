@@ -40,7 +40,7 @@ ADDON = xbmcaddon.Addon()
 ADDONNAME = ADDON.getAddonInfo('name')
 ADDONID = ADDON.getAddonInfo('id')
 ADDONVERSION = ADDON.getAddonInfo('version')
-CWD = ADDON.getAddonInfo('path').decode("utf-8")
+CWD = ADDON.getAddonInfo('path')
 LANGUAGE = ADDON.getLocalizedString
 
 DataLink = 'http://navahang.me/webservice/GetMp3?type=Featured&from=0&to=50'
