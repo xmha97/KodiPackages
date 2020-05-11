@@ -1,18 +1,18 @@
 # AmirAmmari Repo
 
-![repository.film.archives](./repository.amirrammari/resources/icon.png)
+![repository.film.archives](./repository.xmha97/resources/icon.png)
 
-Colection of Kodi add-ons that created by Amir Ammari
+Colection of Kodi add-ons that created by Muhammad Hussein Ammari
 
-[Donations for this repository gratefully accepted](https://www.paypal.me/amirrammari)
+[Donations for this repository gratefully accepted](https://www.paypal.me/xmha97)
 
 ## Install Repository
 
 To install the Film Archives repository 
 
-1.  Download the [repository.amirrammari.zip](https://github.com/amirrammari/kodi-repo-plugins/blob/master/repository.amirrammari/repository.amirrammari-1.1.zip?raw=true)
+1.  Download the [repository.xmha97.zip](https://github.com/xmha97/kodi-repo-plugins/blob/master/repository.xmha97/repository.xmha97-1.1.zip?raw=true)
 2.  In Kodi goto Add-ons and choose "Install from Zip file" (you may need to allow add-ons from unkown sources)
-3.  Select the repository.amirrammari.zip you downloaded in step 1
+3.  Select the repository.xmha97.zip you downloaded in step 1
 
 ## Install add-ons
 
@@ -24,11 +24,11 @@ Once you have installed the repository
 
 ## Audio Add-ons
 
-*   [Navahang](https://github.com/amirrammari/kodi-repo-plugins/tree/master/plugin.audio.navahang)
+*   [Navahang](https://github.com/xmha97/kodi-repo-plugins/tree/master/plugin.audio.navahang)
 
 ## Disclaimer
 
 The add-ons in this repository are not created, maintained or in any way affiliated with the various content providers whose material they access. The add-ons simply provide an interface to access free, web-accesible, content from the various content providers websites.
-If you are a content provider whose material is accessed by one of the add-ons and have any issue or complaint - please [raise an issue](https://github.com/amirrammari/kodi-repo-plugins/issues/new?labels=DMCA)
+If you are a content provider whose material is accessed by one of the add-ons and have any issue or complaint - please [raise an issue](https://github.com/xmha97/kodi-repo-plugins/issues/new?labels=DMCA)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e4718a1470c408e842148e253477fc3)](https://www.codacy.com/app/amirrammari/kodi-repo-plugins?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FraserChapman/repository.film.archives&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2e4718a1470c408e842148e253477fc3)](https://www.codacy.com/app/xmha97/kodi-repo-plugins?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FraserChapman/repository.film.archives&amp;utm_campaign=Badge_Grade)

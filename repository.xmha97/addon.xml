@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xmha97" name="xmha97 Repo" version="1.1" provider-name="Muhammad Hussein Ammari">
+	<extension point="xbmc.addon.repository" name="xmha97 Repo">
+		<info compressed="false">https://raw.githubusercontent.com/xmha97/kodi-repo-plugins/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/xmha97/kodi-repo-plugins/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/xmha97/kodi-repo-plugins/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install xmha97 Addons</summary>
+		<description>Download and install xmha97 addons</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email>xmha97@gmail.com</email>
+		<source>https://github.com/xmha97/kodi-repo-plugins/tree/master/repository.xmha97</source>
+		<news>Fix Bugs</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
