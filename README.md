@@ -1,6 +1,4 @@
-# AmirAmmari Repo
-
-![repository.film.archives](./repository.xmha97/resources/icon.png)
+# xmha97 Repo
 
 Colection of Kodi add-ons that created by Muhammad Hussein Ammari
 
@@ -19,7 +17,7 @@ To install the Film Archives repository
 Once you have installed the repository
 
 1.  In Kodi go to "Add-ons" and select "Install from repoistory"
-2.  Select the "AmirAmmari Repo" repoistory
+2.  Select the "xmha97 Repo" repoistory
 3.  Choose the add-on you wish to install
 
 ## Audio Add-ons
