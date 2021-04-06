@@ -22,7 +22,7 @@ Once you have installed the repository
 
 ## Audio Add-ons
 
-*   [Navahang](https://github.com/xmha97/kodi-repo-plugins/tree/master/plugin.audio.navahang) [Archive](http://mirrors.kodi.tv/addons/leia/plugin.audio.navahang/)
+*   [Navahang](https://github.com/xmha97/kodi-repo-plugins/tree/master/plugin.audio.navahang) [[Archive]](http://mirrors.kodi.tv/addons/leia/plugin.audio.navahang/)
 *   
 
 ## Disclaimer
